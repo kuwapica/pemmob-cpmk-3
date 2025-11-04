@@ -195,7 +195,7 @@ class HomePage extends StatelessWidget {
                   child: InkWell(
                     onTap: () {
                       Get.toNamed(
-                        '/product-detail',
+                        AppPages.productDetail,
                         arguments: products[index],
                       );
                     },
